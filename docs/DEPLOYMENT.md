@@ -88,8 +88,8 @@ Your `local.settings.json` file is **NOT** deployed to Azure for security reason
 
 **Via Azure CLI:**
 ```bash
-az functionapp config appsettings set --name <APP_NAME> --resource-group <RESOURCE_GROUP> --settings "MONGO_URI=<YOUR_URI>" "MONGO_DB_NAME=<YOUR_DB_NAME>"
-```
+az functionapp config appsettings set --name "nyein-review-report" --resource-group "nyein" --settings MONGO_URI="mongodb+srv://nyeinsu:Tla12345@nyeinsusandi.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000" MONGO_DB_NAME="nyeinsusandi"
+
 
 ---
 
